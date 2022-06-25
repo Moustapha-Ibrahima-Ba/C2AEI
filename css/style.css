@@ -23,6 +23,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1;
+	background-color: rgb(19, 225, 243);
 }
 ol, ul {
 	list-style: none;
@@ -42,22 +43,24 @@ table {
 
 /* -_- MY STYLES -_- */
 
-/* Body */
-body {
-	background-color: rgb(19, 225, 243);
-}
-
 /* Main */
 main {
 	background-color: #fff;
 	max-width: 95%;
 	margin: 2% auto;
+	font-size: 1em;
+}
+
+h1, h2 {
+	color:rgb(19, 225, 243);
+	font-size: 1.5em;
 }
 
 /* Navigation Bar */
 nav {
 	padding: 10px 0 10px;
 	display: flex;
+	box-sizing: border-box;
 }
 
 /* --- logo --- */
@@ -87,4 +90,31 @@ nav ul li a:hover {
 	color:rgb(19, 225, 243);
 	border-bottom: 2px solid rgb(19, 225, 243);
 	padding-bottom: 1px;
+}
+
+/* Sections */
+
+/* --Home-- */
+#home {
+	background-color: #f5aba0;
+	height: 50vh;
+}
+
+/* --Products-- */
+#products {
+	background-color: #f07d6b;
+	/* height: 500px; */
+	height: 100vh;
+}
+
+/* --Services-- */
+#services {
+	background-color: #ea4e36;
+	height: 100vh;
+}
+
+/* --Contacts-- */
+#contacts {
+	background-color: #e94128;
+	height: 100vh;
 }
