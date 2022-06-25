@@ -1,4 +1,4 @@
-/* RESET THE CSS */
+/* -_- RESET THE CSS -_- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -38,4 +38,53 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* -_- MY STYLES -_- */
+
+/* Body */
+body {
+	background-color: rgb(19, 225, 243);
+}
+
+/* Main */
+main {
+	background-color: #fff;
+	max-width: 95%;
+	margin: 2% auto;
+}
+
+/* Navigation Bar */
+nav {
+	padding: 10px 0 10px;
+	display: flex;
+}
+
+/* --- logo --- */
+#logo {
+	width: 75%;
+	text-align: center;
+}
+
+/* --- links --- */
+ul {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+
+nav ul li {
+	display: flex;
+	justify-content: space-evenly;
+	width: 15%;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color:rgb(19, 225, 243);
+	border-bottom: 2px solid rgb(19, 225, 243);
+	padding-bottom: 1px;
 }
