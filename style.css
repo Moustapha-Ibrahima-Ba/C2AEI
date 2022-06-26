@@ -98,6 +98,11 @@ nav ul li a:hover {
 #home {
 	background-color: #f5aba0;
 	height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
 }
 
 /* --Products-- */
