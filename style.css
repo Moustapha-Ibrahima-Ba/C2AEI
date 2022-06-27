@@ -95,9 +95,9 @@ nav ul li a:hover {
 
 /* Sections */
 
-/* --Home-- */
+/* -- Home -- */
 #home {
-	background: no-repeat center/80% url("images/products.png");
+	background-color: #f07d6b;
 	height: 65vh;
 	display: flex;
 	flex-direction: column;
@@ -107,20 +107,21 @@ nav ul li a:hover {
 }
 
 
-/* --Products-- */
+/* -- Products -- */
 #products {
 	background-color: #f07d6b;
 	/* height: 500px; */
 	height: 100vh;
+	background: no-repeat center/80% url("images/products.png");
 }
 
-/* --Services-- */
+/* -- Services -- */
 #services {
 	background-color: #ea4e36;
 	height: 100vh;
 }
 
-/* --Contacts-- */
+/* -- Contacts -- */
 #contacts {
 	background-color: #e94128;
 	height: 100vh;
