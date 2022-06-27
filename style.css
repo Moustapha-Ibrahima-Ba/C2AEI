@@ -61,6 +61,7 @@ nav {
 	padding: 10px 0 10px;
 	display: flex;
 	box-sizing: border-box;
+	background-color: whitesmoke;
 }
 
 /* --- logo --- */
@@ -96,14 +97,15 @@ nav ul li a:hover {
 
 /* --Home-- */
 #home {
-	background-color: #f5aba0;
-	height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 2;
+	background: no-repeat center/80% url("images/products.png");
+	height: 65vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 2;
 }
+
 
 /* --Products-- */
 #products {
