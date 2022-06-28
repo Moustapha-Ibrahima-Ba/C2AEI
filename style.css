@@ -115,14 +115,29 @@ nav ul li a:hover {
 	background: no-repeat center/80% url("images/products.png");
 }
 
+#products h2 {
+	text-align: center;
+	padding-top: 30px;
+}
+
 /* -- Services -- */
 #services {
 	background-color: #ea4e36;
 	height: 100vh;
 }
 
+#services h2 {
+	text-align: center;
+	padding-top: 30px;
+}
+
 /* -- Contacts -- */
 #contacts {
 	background-color: #e94128;
 	height: 100vh;
+}
+
+#contacts h2 {
+	text-align: center;
+	padding-top: 30px;
 }
