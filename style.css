@@ -126,7 +126,7 @@ nav ul li a:hover {
 	height: 100vh;
 }
 
-#services h2 {
+#services h2, #services ul {
 	text-align: center;
 	padding-top: 30px;
 }
