@@ -7,3 +7,9 @@
 - French Description
 
 **C2AEI** est une boutique spécialisé en électronique situé à Mbour. Je suis en train de créer un site Web qui permettra aux gens de voir leurs produits disponibles.
+
+<!-- Plan: 
+Description 
+1) produits
+2) services
+-->
